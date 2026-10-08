@@ -1,0 +1,29 @@
+name: Clueless
+options:
+  bundleIdPrefix: com.clueless
+  createIntermediateGroups: true
+targets:
+  Clueless:
+    type: application
+    platform: macOS
+    deploymentTarget: "14.0"
+    sources:
+      - path: Sources/Clueless
+    entitlements:
+      path: Sources/Clueless/Clueless.entitlements
+      properties:
+        com.apple.security.device.audio-input: true
+    info:
+      path: Sources/Clueless/Info.plist
+      properties:
+        LSUIElement: true
+        NSPrincipalClass: NSApplication
+        NSScreenCaptureUsageDescription: "Clueless captures the screen when you ask it to look, and checks that the overlay itself is left out of that capture."
+        NSMicrophoneUsageDescription: "Clueless transcribes the microphone when you start an audio session."
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.clueless.app
+        PRODUCT_NAME: Clueless
+        SWIFT_VERSION: "6.0"
+        CODE_SIGN_STYLE: Automatic
+        ENABLE_HARDENED_RUNTIME: true

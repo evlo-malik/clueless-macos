@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		016A785B8C445E4003346386 /* OverlayState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C6940C4C97FE9F8C7F6B1 /* OverlayState.swift */; };
+		1F7F2D1E1A8BB7F33189F0C5 /* MicCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A88247663544AF4B59F831 /* MicCapture.swift */; };
+		2C586BBC87A813168256E5E3 /* OverlayWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF656616F7C6EC384845BE20 /* OverlayWindowController.swift */; };
+		3964092A9BB028A2F4ACB8E9 /* AudioPipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6187A52D4E244F135419462 /* AudioPipeline.swift */; };
+		41C1022542E501756A6CCDC9 /* SystemAudioCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7616FC6F4BF56A25C76A63A /* SystemAudioCapture.swift */; };
+		82200C5C7D49FDBEFF2E8852 /* ListenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92143A97A87B0586AA1AB30 /* ListenController.swift */; };
+		8FF1F1872934986CDC0B83C6 /* OpenRouterClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E27AEA65BE584707C8092ED /* OpenRouterClient.swift */; };
+		A009787C96EB8165F50C00FF /* KeychainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC4ADB5FE8A14A55FB2AF8B /* KeychainStore.swift */; };
+		B778ACF8C3973E9884DB7803 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A07F250884A7D4080CC1958 /* AppDelegate.swift */; };
+		CF36FB1892E1368A652093B3 /* LaunchAgentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F25F9DA9D00F66CD36089F5 /* LaunchAgentManager.swift */; };
+		D29376C0693F0E0A0B7DD46E /* CluelessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041B07B83803F03456AACABD /* CluelessApp.swift */; };
+		D34DDFE478455DB8BFE66D74 /* ConversationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FF373CD38DF942BD720FCF /* ConversationController.swift */; };
+		D5E373630C2FB839DF0394C8 /* ScreenCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAAFF9B9EF667A5F848027B /* ScreenCapture.swift */; };
+		DF9942A80CAC7F3214782706 /* OverlayPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682DB1499C424B2D7D52A8B8 /* OverlayPanel.swift */; };
+		E5633E0810B988CF0FF488D3 /* HotKeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE730E201D6E9762346A74B /* HotKeyManager.swift */; };
+		EA15EC45893BEBA85D78CE16 /* CaptureAuditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA29EE4508053713D569EE /* CaptureAuditor.swift */; };
+		F223A77529168B8EAF88B48A /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC15020A7B94CBF1636841 /* SettingsStore.swift */; };
+		F8F5CCC37527272B6601EC7A /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0027D375898736C444593B0B /* OverlayView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0027D375898736C444593B0B /* OverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
+		012256E56206EE2EF79D1668 /* Clueless.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clueless.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		041B07B83803F03456AACABD /* CluelessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CluelessApp.swift; sourceTree = "<group>"; };
+		06A3EB332F53740ABF3268AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1FC4ADB5FE8A14A55FB2AF8B /* KeychainStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStore.swift; sourceTree = "<group>"; };
+		2DEC15020A7B94CBF1636841 /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
+		50FF373CD38DF942BD720FCF /* ConversationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationController.swift; sourceTree = "<group>"; };
+		5A07F250884A7D4080CC1958 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		682DB1499C424B2D7D52A8B8 /* OverlayPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayPanel.swift; sourceTree = "<group>"; };
+		6E27AEA65BE584707C8092ED /* OpenRouterClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenRouterClient.swift; sourceTree = "<group>"; };
+		84EA29EE4508053713D569EE /* CaptureAuditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureAuditor.swift; sourceTree = "<group>"; };
+		8FE730E201D6E9762346A74B /* HotKeyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotKeyManager.swift; sourceTree = "<group>"; };
+		9F25F9DA9D00F66CD36089F5 /* LaunchAgentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAgentManager.swift; sourceTree = "<group>"; };
+		A17C6940C4C97FE9F8C7F6B1 /* OverlayState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayState.swift; sourceTree = "<group>"; };
+		A7616FC6F4BF56A25C76A63A /* SystemAudioCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemAudioCapture.swift; sourceTree = "<group>"; };
+		B2D72ABDE7500E3B6FCFA1E1 /* Clueless.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Clueless.entitlements; sourceTree = "<group>"; };
+		B92143A97A87B0586AA1AB30 /* ListenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenController.swift; sourceTree = "<group>"; };
+		CF656616F7C6EC384845BE20 /* OverlayWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayWindowController.swift; sourceTree = "<group>"; };
+		DBAAFF9B9EF667A5F848027B /* ScreenCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenCapture.swift; sourceTree = "<group>"; };
+		E6187A52D4E244F135419462 /* AudioPipeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPipeline.swift; sourceTree = "<group>"; };
+		F8A88247663544AF4B59F831 /* MicCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicCapture.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		159B24E9D531FFAB79BE1EDA /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				9F25F9DA9D00F66CD36089F5 /* LaunchAgentManager.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		1691845EA78759D90045AF6A /* Detection */ = {
+			isa = PBXGroup;
+			children = (
+				84EA29EE4508053713D569EE /* CaptureAuditor.swift */,
+			);
+			path = Detection;
+			sourceTree = "<group>";
+		};
+		24212ECD512BBEE38693CDB3 /* Overlay */ = {
+			isa = PBXGroup;
+			children = (
+				682DB1499C424B2D7D52A8B8 /* OverlayPanel.swift */,
+				A17C6940C4C97FE9F8C7F6B1 /* OverlayState.swift */,
+				0027D375898736C444593B0B /* OverlayView.swift */,
+				CF656616F7C6EC384845BE20 /* OverlayWindowController.swift */,
+			);
+			path = Overlay;
+			sourceTree = "<group>";
+		};
+		2C63516D22C1D73D956F36E3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1FC4ADB5FE8A14A55FB2AF8B /* KeychainStore.swift */,
+				6E27AEA65BE584707C8092ED /* OpenRouterClient.swift */,
+				2DEC15020A7B94CBF1636841 /* SettingsStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4CB72AB0CFD0CA575EC5D371 /* Capture */ = {
+			isa = PBXGroup;
+			children = (
+				E6187A52D4E244F135419462 /* AudioPipeline.swift */,
+				F8A88247663544AF4B59F831 /* MicCapture.swift */,
+				DBAAFF9B9EF667A5F848027B /* ScreenCapture.swift */,
+				A7616FC6F4BF56A25C76A63A /* SystemAudioCapture.swift */,
+			);
+			path = Capture;
+			sourceTree = "<group>";
+		};
+		7170044671E60A97BFCD7D51 /* Clueless */ = {
+			isa = PBXGroup;
+			children = (
+				5A07F250884A7D4080CC1958 /* AppDelegate.swift */,
+				B2D72ABDE7500E3B6FCFA1E1 /* Clueless.entitlements */,
+				041B07B83803F03456AACABD /* CluelessApp.swift */,
+				06A3EB332F53740ABF3268AF /* Info.plist */,
+				8319E7C1A7B1B52042B03535 /* AI */,
+				4CB72AB0CFD0CA575EC5D371 /* Capture */,
+				1691845EA78759D90045AF6A /* Detection */,
+				8EE2A192DC75C9B6165E8C32 /* Hotkeys */,
+				24212ECD512BBEE38693CDB3 /* Overlay */,
+				159B24E9D531FFAB79BE1EDA /* Persistence */,
+				2C63516D22C1D73D956F36E3 /* Services */,
+			);
+			path = Clueless;
+			sourceTree = "<group>";
+		};
+		8319E7C1A7B1B52042B03535 /* AI */ = {
+			isa = PBXGroup;
+			children = (
+				50FF373CD38DF942BD720FCF /* ConversationController.swift */,
+				B92143A97A87B0586AA1AB30 /* ListenController.swift */,
+			);
+			path = AI;
+			sourceTree = "<group>";
+		};
+		8EE2A192DC75C9B6165E8C32 /* Hotkeys */ = {
+			isa = PBXGroup;
+			children = (
+				8FE730E201D6E9762346A74B /* HotKeyManager.swift */,
+			);
+			path = Hotkeys;
+			sourceTree = "<group>";
+		};
+		A23D31A8B8AB0B2A44285CE9 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				7170044671E60A97BFCD7D51 /* Clueless */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		E4ABBC1E8F7616C47B5844E9 = {
+			isa = PBXGroup;
+			children = (
+				A23D31A8B8AB0B2A44285CE9 /* Sources */,
+				EBFD659A62D258398F0BBF69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBFD659A62D258398F0BBF69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				012256E56206EE2EF79D1668 /* Clueless.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9CD27A9CFAB8E369218D273 /* Clueless */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1B56BE3B2D43C5418A288FD /* Build configuration list for PBXNativeTarget "Clueless" */;
+			buildPhases = (
+				DDC6CD946B6C717F5CCA494D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clueless;
+			packageProductDependencies = (
+			);
+			productName = Clueless;
+			productReference = 012256E56206EE2EF79D1668 /* Clueless.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14816BFA49CA06D004F11856 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C9CD27A9CFAB8E369218D273 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DA4B48FA0802BEF8F386AA21 /* Build configuration list for PBXProject "Clueless" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = E4ABBC1E8F7616C47B5844E9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EBFD659A62D258398F0BBF69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9CD27A9CFAB8E369218D273 /* Clueless */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDC6CD946B6C717F5CCA494D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B778ACF8C3973E9884DB7803 /* AppDelegate.swift in Sources */,
+				3964092A9BB028A2F4ACB8E9 /* AudioPipeline.swift in Sources */,
+				EA15EC45893BEBA85D78CE16 /* CaptureAuditor.swift in Sources */,
+				D29376C0693F0E0A0B7DD46E /* CluelessApp.swift in Sources */,
+				D34DDFE478455DB8BFE66D74 /* ConversationController.swift in Sources */,
+				E5633E0810B988CF0FF488D3 /* HotKeyManager.swift in Sources */,
+				A009787C96EB8165F50C00FF /* KeychainStore.swift in Sources */,
+				CF36FB1892E1368A652093B3 /* LaunchAgentManager.swift in Sources */,
+				82200C5C7D49FDBEFF2E8852 /* ListenController.swift in Sources */,
+				1F7F2D1E1A8BB7F33189F0C5 /* MicCapture.swift in Sources */,
+				8FF1F1872934986CDC0B83C6 /* OpenRouterClient.swift in Sources */,
+				DF9942A80CAC7F3214782706 /* OverlayPanel.swift in Sources */,
+				016A785B8C445E4003346386 /* OverlayState.swift in Sources */,
+				F8F5CCC37527272B6601EC7A /* OverlayView.swift in Sources */,
+				2C586BBC87A813168256E5E3 /* OverlayWindowController.swift in Sources */,
+				D5E373630C2FB839DF0394C8 /* ScreenCapture.swift in Sources */,
+				F223A77529168B8EAF88B48A /* SettingsStore.swift in Sources */,
+				41C1022542E501756A6CCDC9 /* SystemAudioCapture.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1CA3D56232205244B44C9081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7714A99B01AE201FA33FA6BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B4DA49CE5D9EB5C75E2C1C14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Sources/Clueless/Clueless.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Sources/Clueless/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clueless.app;
+				PRODUCT_NAME = Clueless;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		CF05AEC9E11219CBB39ED7C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Sources/Clueless/Clueless.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Sources/Clueless/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clueless.app;
+				PRODUCT_NAME = Clueless;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1B56BE3B2D43C5418A288FD /* Build configuration list for PBXNativeTarget "Clueless" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF05AEC9E11219CBB39ED7C2 /* Debug */,
+				B4DA49CE5D9EB5C75E2C1C14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DA4B48FA0802BEF8F386AA21 /* Build configuration list for PBXProject "Clueless" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7714A99B01AE201FA33FA6BC /* Debug */,
+				1CA3D56232205244B44C9081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14816BFA49CA06D004F11856 /* Project object */;
+}
